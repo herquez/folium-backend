@@ -1,5 +1,6 @@
 ### My files ###
 .env
+/dataset/data
 
 HELP.md
 target/

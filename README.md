@@ -47,7 +47,7 @@ users to take care of their plants. Providing multiple information about it.
 
 1. Install application skipping test:
     ```Terminal
-    mvn clean install -DskipTests
+    ./mvnw clean install -DskipTests
     ````
 2. Run spring boot:
     ```Terminal

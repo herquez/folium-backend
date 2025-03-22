@@ -43,6 +43,17 @@ users to take care of their plants. Providing multiple information about it.
     ```
     To run a container with the database.
 
+### Run Application
+
+1. Install application skipping test:
+    ```Terminal
+    mvn clean install -DskipTests
+    ````
+2. Run spring boot:
+    ```Terminal
+    ./mvnw spring-boot:run
+    ```
+
 ## Documentation
 ---
 

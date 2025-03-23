@@ -31,7 +31,7 @@ users to take care of their plants. Providing multiple information about it.
 **Steps**
 
 1. Start docker machine if it is off.
-2. Have the following environment variables in root path `.env`.
+2. Have the following environment variables in root path `.env` and `.env.properties`.
     - APPLICATION_NAME
     - POSTGRES_USER
     - POSTGRES_PASSWORD
@@ -47,7 +47,7 @@ users to take care of their plants. Providing multiple information about it.
 
 1. Install application skipping test:
     ```Terminal
-    ./mvnw clean install -DskipTests
+    ./mvnw clean install
     ````
 2. Run spring boot:
     ```Terminal

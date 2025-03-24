@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "common_name": "European Silver Fir",
+  "other_name": [
+    "Common Silver Fir"
+  ],
+  "type": "tree",
+  "cycle": "Perennial",
+  "watering": "Frequent",
+  "watering_general_benchmark": {
+    "value": "5-7",
+    "unit": "days"
+  },
+  "leaves_color": [
+    "dark-green"
+  ],
+  "propagation":[
+    "seed",
+    "cutting"
+  ],
+  "flowers": true,
+  "flowering_season": "Spring",
+  "sunlight": [
+    "full sun",
+    "part shade"
+  ],
+  "fruits": false,
+  "fruiting_season": null,
+  "harvest_method": "cutting",
+  "growth_rate": "High",
+  "maintenance": "Low",
+  "medicinal": true,
+  "poisonous_to_humans": false,
+  "poisonous_to_pets": false,
+  "invasive": false,
+  "rare": false,
+  "tropical": false,
+  "cuisine": false,
+  "indoor": false,
+  "care_level": "Medium"
+}

@@ -3,9 +3,13 @@ package com.api.folium.services;
 import com.api.folium.entities.PropagationMethod;
 import com.api.folium.repositories.PropagationMethodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.NoSuchElementException;
 
+@Service
+@Transactional
 public class PropagationMethodServiceImpl implements PropagationMethodService {
     PropagationMethodRepository propagationMethodRepository;
 

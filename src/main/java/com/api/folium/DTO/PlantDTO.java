@@ -1,7 +1,13 @@
 package com.api.folium.DTO;
 
 import com.api.folium.enums.*;
+import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class PlantDTO {
     private Long id;
     private String commonName;

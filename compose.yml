@@ -10,5 +10,5 @@ services:
       - ${POSTGRES_PORT}:5432
     command: -p ${POSTGRES_PORT}
     volumes:
-      - ./dataset/data:/var/lib/postgresql/data
+      - ./dataset/data:/var/lib/postgresql
       - ./dataset:/docker-entrypoint-initdb.d
